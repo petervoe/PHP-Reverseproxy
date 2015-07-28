@@ -2,6 +2,18 @@
 
 require_once "ReverseProxy.php";
 
+/**
+ * ReverseProxyExternal
+ * 
+ * Externer Endpunkt des Reverseproxyservers
+ * Wird auf einem externen Webserver ausgeführt
+ * und leitet die Anfragen an den internen 
+ * ReverseproxyGateway-Server weiter.
+ * 
+ * @author	Peter Völkl <peter@voelkl.at>
+ * @version	2015-07-28
+ * 
+ */
  class ReverseProxyExternal extends ReverseProxy{
 	
 	protected $keyrotation;

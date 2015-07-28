@@ -2,6 +2,17 @@
 
 require_once "ReverseProxy.php";
 
+/**
+ * ReverseProxyGateway
+ * 
+ * Reverseproxyserver-Gateway
+ * Wird als Gateway in das interne Netz ausgeführt
+ * und behandelt die Anfragen des ReverseproxyExternal-Servers.
+ * 
+ * @author	Peter Völkl <peter@voelkl.at>
+ * @version	2015-07-28
+ * 
+ */
  class ReverseProxyGateway extends ReverseProxy{
 	
 	/**

@@ -1,5 +1,14 @@
 <?
 
+/**
+ * ReverseProxy
+ * 
+ * Abstrakte Klasse für die Instanzierung der Reverseproxyserver
+ * 
+ * @author	Peter Völkl <peter@voelkl.at>
+ * @version	2015-07-28
+ * 
+ */
  abstract class ReverseProxy{
 	
 	protected $vwdchost;
